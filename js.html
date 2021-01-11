@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>노마드코더 자바스크립트</h1>
+    <script>
+        let a = 21;
+        let b = a - 5;
+        a = 4;
+        console.log(b, a);
+
+    function sayhello(name, age){
+        console.log(`hello ${name} i'm ${age} years old`);
+    }
+
+    sayhello('eunji',20);
+    
+    const calculator = {
+        plus:function(num, num2){
+            return console.log(num+num2);
+        },
+        minus:function(num, num2){
+            return console.log(num-num2);
+        }
+
+    }
+
+    calculator.plus(5,9);
+    calculator.minus(10,4);
+    </script>
+</body>
+</html>

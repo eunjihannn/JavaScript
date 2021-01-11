@@ -1,0 +1,11 @@
+.btn{
+    cursor: pointer;
+}
+
+h1{
+    color: #ff7f50;
+}
+
+.clicked{
+    color: blue;
+}
